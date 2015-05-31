@@ -6,17 +6,7 @@ function rmNavColor(element) {
 	return;
 }
 
-$( document ).ready(function() {
-	// Navbar Color Changing
-	var navid = 0;
-	var a = $("#navbar").offset().top;
-
-	$('#navbar').addClass('blue-grey darken-2');
-
-	$(document).scroll (function() {
-
-	});
-    
+$( document ).ready(function() {    
  	// Parallax Setup
  	$('parallax-window').parallax({
  		speed: '0.3',
@@ -28,13 +18,30 @@ $( document ).ready(function() {
 		imageSrc: 'static/img/headerimg.jpg',
 	});
 
+	$('#parallax1').click(function() {
+		var img1 = document.createElement("img");
+		img1.src = 'static/img/headerimg.jpg';
+		img1.materialbox();
+
+		var src1 = document.getElementById("parallax1");
+		src1.appendChild(img1);
+	});
+
+	$('#parallax2').parallax({
+		imageSrc: 'static/img/gel.jpg',
+	});
+
+
+	// Standardize Text Size
+	$('.content').css("font-size", "12.5pt");
+
 	// Add Scrolling Transitions
 	var $root = $('html, body');
 	$('a').click(function() {
-    $root.animate({
-        scrollTop: $( $.attr(this, 'href') ).offset().top
-    }, 500);
-    return false;
-});
+	    $root.animate({
+	        scrollTop: $( $.attr(this, 'href') ).offset().top
+	    }, 500);
+	    return false;
+	});
 
 });
