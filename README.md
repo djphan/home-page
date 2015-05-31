@@ -2,10 +2,10 @@
 
 This website was developed using the following technologies.
 
-1. ![Materialize CSS](http://materializecss.com/)  
+1. [Materialize CSS](http://materializecss.com/)  
   ``` This is usable under the MIT license and a copy can be found in the link above ```
 
-2. ![Parallax Scrolling with jQuery](http://pixelcog.github.io/parallax.js/)  
+2. [Parallax Scrolling with jQuery](http://pixelcog.github.io/parallax.js/)  
   ``` This is usable under the MIT license and a copy can be found in the link above ``
 
 Copyright (c) 2015 by Daniel Phan

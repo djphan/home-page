@@ -18,19 +18,13 @@ $( document ).ready(function() {
 		imageSrc: 'static/img/headerimg.jpg',
 	});
 
-	$('#parallax1').click(function() {
-		var img1 = document.createElement("img");
-		img1.src = 'static/img/headerimg.jpg';
-		img1.materialbox();
-
-		var src1 = document.getElementById("parallax1");
-		src1.appendChild(img1);
-	});
-
 	$('#parallax2').parallax({
 		imageSrc: 'static/img/gel.jpg',
 	});
 
+	$('#parallaxf').parallax({
+		imageSrc: 'static/img/footerimg.png',
+	});
 
 	// Standardize Text Size
 	$('.content').css("font-size", "12.5pt");
@@ -43,5 +37,6 @@ $( document ).ready(function() {
 	    }, 500);
 	    return false;
 	});
+
 
 });
