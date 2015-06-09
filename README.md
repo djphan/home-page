@@ -6,7 +6,10 @@ This website was developed using the following technologies.
   ``` This is usable under the MIT license and a copy can be found in the link above ```
 
 2. [Parallax Scrolling with jQuery](http://pixelcog.github.io/parallax.js/)  
-  ``` This is usable under the MIT license and a copy can be found in the link above ``
+  ``` This is usable under the MIT license and a copy can be found in the link above ```
+
+ 3. [Slick Carousel](http://kenwheeler.github.io/slick/)
+   ``` This is usable under the MIT license and a copy can be found in the link above ```
 
 Copyright (c) 2015 by Daniel Phan
 
@@ -17,6 +20,7 @@ The MIT License (MIT)
 
 Materialize CSS Copyright (c) 2015 .
 Parallax Copyright (c) 2015 PixelCog Inc.
+Slick Copyright (c) 2015 by Ken Wheeler
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

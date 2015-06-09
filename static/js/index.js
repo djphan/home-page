@@ -1,12 +1,18 @@
-function rmNavColor(element) {
-	var numNavBarClasses = element.className.split('').length;
-	for (i=0; i<numNavBarClasses; i++) {
-		$('#navbar').removeClass(element.className.split(' ').pop());
-	}
-	return;
+// Helper functions to command the slick Carousel
+function nextSlide(element) {
+	$(element).slick('slickNext');
 }
 
-$( document ).ready(function() {    
+
+function prevSlide(element) {
+	$(element).slick('slickPrev');
+}
+
+$( document ).ready(function() {   
+
+	// Navbar Setup
+	$(".button-collapse").sideNav();
+
  	// Parallax Setup
  	$('parallax-window').parallax({
  		speed: '0.3',
@@ -23,7 +29,7 @@ $( document ).ready(function() {
 	});
 
 	$('#parallaxf').parallax({
-		imageSrc: 'static/img/footerimg.png',
+		imageSrc: 'static/img/footerimg.png	',
 	});
 
 	// Standardize Text Size
@@ -38,5 +44,18 @@ $( document ).ready(function() {
 	    return false;
 	});
 
+	//Slick Initalization for Carousel
+	$('.aboutme_slider').slick();
 
 });
+
+
+
+
+function rmNavColor(element) {
+	var numNavBarClasses = element.className.split('').length;
+	for (i=0; i<numNavBarClasses; i++) {
+		$('#navbar').removeClass(element.className.split(' ').pop());
+	}
+	return;
+}
