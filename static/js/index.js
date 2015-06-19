@@ -8,6 +8,14 @@ function prevSlide(element) {
 	$(element).slick('slickPrev');
 }
 
+function goToSlide() {
+
+}
+
+function goToStart() {
+	
+}
+
 $( document ).ready(function() {   
 
 	// Navbar Setup
@@ -46,6 +54,10 @@ $( document ).ready(function() {
 
 	//Slick Initalization for Carousel
 	$('.aboutme_slider').slick();
+	//Slick Initalization for Carousel
+	$('.skills_slider').slick({
+		arrows: true
+		});
 
 });
 
