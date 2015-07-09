@@ -3,19 +3,15 @@ function nextSlide(element) {
 	$(element).slick('slickNext');
 }
 
-
 function prevSlide(element) {
 	$(element).slick('slickPrev');
 }
 
-function goToSlide() {
-
+function goToSlide(element, slide) {	
+	$(element).slick('slickGoTo', slide);
 }
 
-function goToStart() {
-	
-}
-
+// Document Setup Block
 $( document ).ready(function() {   
 
 	// Navbar Setup
@@ -42,6 +38,8 @@ $( document ).ready(function() {
 
 	// Standardize Text Size
 	$('.content').css("font-size", "12.5pt");
+	$('.content2').css("font-size", "14pt");
+
 
 	// Add Scrolling Transitions
 	var $root = $('html, body');
@@ -60,8 +58,6 @@ $( document ).ready(function() {
 		});
 
 });
-
-
 
 
 function rmNavColor(element) {

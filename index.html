@@ -26,6 +26,8 @@
       	<!--Import materialize.css-->
      	<link type="text/css" rel="stylesheet" href="static/css/materialize.css"  media="screen,projection"/>
 
+     	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
      	<!--Import Slick.css for Carousel-->
      	<link type="text/css" rel="stylesheet" href="static/css/slick.css"/>
      	<link rel="stylesheet" type="text/css" href="static/css/slick-theme.css"/>
@@ -169,7 +171,7 @@
 			<a id="centerbttn" class="btn-floating btn-large waves-effect waves-light red" href="#skills"><i class="mdi-hardware-keyboard-arrow-down"></i></a>
 			<br/>
 		</div>
-		<a onclick="Materialize.toast('An agarose gel that I ran making DNA constructs.', 4000)"><div id="parallax2" class="parallax-window"></div></a>
+		<a onclick="Materialize.toast('An agarose gel running some DNA constructs.', 4000)"><div id="parallax2" class="parallax-window"></div></a>
 		<!-- About Me Ends Here -->
 
 
@@ -180,63 +182,369 @@
 		<div class="skills_slider">
 			<div id="skillsmain">
 				<div class="container">
+
 						<div class="row">
-						<h3 class="col m8 s10 offset-s1"> My Skill Summary </h3>
-					</div>
+							<h3 class="col m8 s10 offset-s1"> My Skill Summary </h3>
+						</div>
+
+						<div class="row content2">
+							<div class="col m8 s10 offset-s1">
+							Click the following links to see my outline of the following skill categories.
+							</div>
+						</div>
+
+						<div class="row content2">
+							<div class="col m4 s10 offset-s1"><a href="javascript:goToSlide('.skills_slider', 1)"> <i class="blue-text mdi-navigation-chevron-right"></i> Programming Skills </a></div>
+						</div>
+
+						<div class="row content2">
+							<div class="col m4 s10 offset-s1"> <a href="javascript:goToSlide('.skills_slider', 3)"> <i class="blue-text mdi-navigation-chevron-right"></i> Web Technologies Skills </a></div>
+						</div>
+						
+						<div class="row content2">
+								<div class="col m4 s10 offset-s1"> <a href="javascript:goToSlide('.skills_slider', 5)"> <i class="blue-text mdi-navigation-chevron-right"></i> Bioinformatics Skills </a></div>
+						</div>
+
+						<div class="row content2">
+							<div class="col m4 s10 offset-s1"> <a href="javascript:goToSlide('.skills_slider', 4)"> <i class="blue-text mdi-navigation-chevron-right"></i> Laboratory Skills </a></div>
+						</div>
+
+						<div class="row content2">
+								<div class="col m4 s10 offset-s1"> <a href="javascript:goToSlide('.skills_slider', 5)"> <i class="blue-text mdi-navigation-chevron-right"></i>	 General Skills </a></div>
+						</div>
+
 				</div>
 			</div>
-
 
 			<div id="skills1">
 				<div class="container">
 					<div class="row">
-						<h3 class="col m8 s10 offset-s1"> My Programming Skills </h3>
+						<h3 class="col m6 s10 offset-s1"> My Programming Skills </h3>
 					</div>
 
 					<div class="row">
-					</div>
+						<div class="col m6 s10 offset-s1 content">
+							<h5> Summary: </h5>
+							<ul>
+								<li> <i class="red-text mdi-navigation-chevron-right"></i>
+									Experience in the following languages: <span class="red-text"> C, C++, Java, Python, Matlab/Octave, R, and SQL </span>
+								</li>
+
+								<li>
+									<i class="orange-text mdi-navigation-chevron-right"></i>
+									Experience in the following database architectures: <span class="orange-text"> MongolDB, SQLite3, MySQL, Postgres, and Oracle </span>  
+								</li>
+
+								<li>
+									<i class="red-text mdi-navigation-chevron-right"></i>
+									Experience in the following programming practices:  <span class="red-text"> Agile Programming, Scrum, UML Design, MVC Design Architecture, Version Control with Git and GitHub, and Object Oriented Programming </span>
+								</li>
+
+								<li>
+									<i class="orange-text mdi-navigation-chevron-right"></i>
+									Programming in <span class="orange-text"> MacOS, Unix, and Linux </span> environments
+								</li>
+
+								<li>
+									<i class="red-text mdi-navigation-chevron-right"></i>
+									Avid learner of new technologies and frameworks.
+								</li>
+							</ul>
+						</div>
+
+						<div class="col m6 s10 offset-s1">
+							<h5>Detailed Breakdown: </h5>
+							<span class="content"> Click the following link to see a more detailed breakdown.</span>
+							<br/>
+							<ul class="content2">
+								<li> <a href="javascript:goToSlide('.skills_slider', 2)"> <i class="blue-text mdi-navigation-chevron-right"></i> Programming Breakdown </li></a> <br/>
+							</ul>
+						</div>
+					</div>	
 
 					<div class="row">
-
-					</div>
-
-
-					<div class="row">
-						<a href="javascript:prevSlide('.skills_slider')" class="waves-effect waves-light btn blue"><i class="mdi-navigation-arrow-back left"></i>Previous</a>
-						<a href="javascript:nextSlide('.skills_slider')" class="waves-effect waves-light btn blue right"><i class="mdi-navigation-arrow-forward right"></i>Next</a>
+						<a href="javascript:goToSlide('.skills_slider', 0)" class="waves-effect waves-light btn blue"><i class="mdi-navigation-arrow-back left"></i>Back to Skills</a>
 					</div>
 				</div>
 			</div>
+
+			<div id="skills1_1">
+				<div class="container">
+					<div class="row">
+						<h3 class="col m6 s10 offset-s1"> Programming Breakdown </h3>
+					</div>
+					<div class="row">
+						<div class="col m12 offset-s1">
+						Rankings in knowledge are described as such: <span class="green-text"> Beginner (1-2/5) </span>, <span class="teal-text"> Proficient (3/5)</span>, <span class="indigo-text"> Expert (4/5)</span>, and  <span class="red-text"> Complete Mastery (5/5) </span> </div>
+					</div>
+
+
+					<div class="row">
+						<div class="col m6 s10 offset-s1 content">
+							Languages: 
+							<ul>
+								<li> <i class="green-text mdi-navigation-chevron-right"></i> C++: Beginner
+								</li>
+
+								<li> <i class="green-text mdi-navigation-chevron-right"></i> Java: Beginner
+								</li>
+
+								<li>
+									<i class="green-text mdi-navigation-chevron-right"></i>
+									Matlab and Octave: Beginner
+								</li>
+
+								<li>
+									<i class="green-text mdi-navigation-chevron-right"></i>
+									R: Beginner
+								</li>
+
+								<li>
+									<i class="green-text mdi-navigation-chevron-right"></i>
+									SQL: Beginner
+								</li> 
+
+								<li> <i class="teal-text mdi-navigation-chevron-right"></i> C: Proficient 
+								</li>
+
+								<li>
+									<i class="teal-text mdi-navigation-chevron-right"></i>
+									Python: Proficient 
+								</li>
+							</ul>
+						</div>
+
+						<div class="col m6 s10 offset-s1 content">
+							Databases:
+							<ul>
+								<li> <i class="green-text mdi-navigation-chevron-right"></i> MongolDB: Beginner
+								</li>
+
+								<li> <i class="green-text mdi-navigation-chevron-right"></i> Oracle: Beginner
+								</li>
+
+								<li>
+									<i class="green-text mdi-navigation-chevron-right"></i>
+									Postgres: Beginner
+								</li>
+
+								<li>
+									<i class="green-text mdi-navigation-chevron-right"></i>
+									MySQL: Beginner
+								</li>
+
+								<li>
+									<i class="green-text mdi-navigation-chevron-right"></i>
+									SQLLite3: Beginner
+								</li>
+
+							</ul>
+						</div>
+	
+
+						<div class="col m6 s10 offset-s1 content">
+							Programing Practices:
+							<ul>
+								<li> <i class="teal-text mdi-navigation-chevron-right"></i> MVC: Proficient
+								</li>
+
+								<li> <i class="teal-text mdi-navigation-chevron-right"></i> UML: Proficient
+								</li>
+
+								<li>
+									<i class="teal-text mdi-navigation-chevron-right"></i>
+									Object Oriented Programming: Proficient
+								</li>
+
+								<li>
+									<i class="teal-text mdi-navigation-chevron-right"></i>
+									Version Control: Proficient
+								</li>
+
+							</ul>
+						</div>
+					</div>	
+
+					<div class="row">
+						<a href="javascript:goToSlide('.skills_slider', 1)" class="waves-effect waves-light btn blue"><i class="mdi-navigation-arrow-back left"></i>Back to Programming Skills </a>
+					</div>
+				</div>
+			</div>
+
 			<div id="skills2">
 				<div class="container">
 					<div class="row">
-						<h3 class="col m8 s10 offset-s1"> My Web Programming Skills</h3>
+						<h3 class="col m8 s10 offset-s1"> My Web Technology Skills</h3>
 					</div>
+
 					<div class="row">
-						<a href="javascript:prevSlide('.skills_slider')" class="waves-effect waves-light btn blue"><i class="mdi-navigation-arrow-back left"></i>Previous</a>
-						<a href="javascript:nextSlide('.skills_slider')" class="waves-effect waves-light btn blue right"><i class="mdi-navigation-arrow-forward right"></i>Next</a>
+						<div class="col m6 s10 offset-s1 content">
+							<h5> Summary: </h5>
+							<ul>
+								<li> <i class="red-text mdi-navigation-chevron-right"></i>
+									Experience in the following languages: HTML, CSS, and Javascript.
+								</li>						
+
+								<li>
+									<i class="red-text mdi-navigation-chevron-right"></i>
+									Experience in the following frameworks: Django, Flask, and MEAN Stack (Mongol, Express, AngularJS, NodeJs).  
+								</li>
+
+								<li>
+									<i class="red-text mdi-navigation-chevron-right"></i>
+									Experience in: jQuery, AJAX, Templating, Bootstrap (and other CSS templates like MaterialCSS), and RESTful API
+								</li>
+
+
+								<li>
+									<i class="red-text mdi-navigation-chevron-right"></i>
+									Avid "tinkerer" to ensure websites work on both desktop and mobile platforms (<a href="mailto:contact@djphan.me">let me know</a> if you find a bug on either end for this website).
+								</li>
+							</ul>
+						</div>
+
+						<div class="col m6 s10 offset-s1">
+							<h5>Detailed Breakdown: </h5>
+							<span class="content"> Click the following links to see a more detailed breakdown.</span>
+							<ul class="content2">
+								<li> <a href="javascript:goToSlide('.skills_slider', 4)"><i class="blue-text mdi-navigation-chevron-right"></i> Web Technologies Breakdown </a> </li>
+							</ul>
+						</div>
+					</div>	
+					<div class="row">
+						<a href="javascript:goToSlide('.skills_slider', 0)" class="waves-effect waves-light btn blue"><i class="mdi-navigation-arrow-back left"></i>Back to Skills</a>
 					</div>
 				</div>
 			</div>
+
+			<div id="skills2_1">
+				<div class="container">
+					<div class="row">
+						<h3 class="col m6 s10 offset-s1"> Web Technologies Breakdown </h3>
+					</div>
+					<div class="row">
+						<div class="col m12 offset-s1">
+						Rankings in knowledge are described as such: <span class="green-text"> Beginner (1-2/5) </span>, <span class="teal-text"> Proficient (3/5)</span>, <span class="indigo-text"> Expert (4/5)</span>, and  <span class="red-text"> Complete Mastery (5/5) </span> </div>
+					</div>
+
+
+					<div class="row">
+						<div class="col m6 s10 offset-s1 content">
+							Languages: 
+							<ul>
+								<li> <i class="green-text mdi-navigation-chevron-right"></i> Javascript: Beginner
+								</li>
+
+								<li>
+									<i class="teal-text mdi-navigation-chevron-right"></i>
+									HTML and CSS: Proficient 
+								</li>
+							</ul>
+						</div>
+
+						<div class="col m6 s10 offset-s1 content">
+							Frameworks:
+							<ul>
+								<li> <i class="green-text mdi-navigation-chevron-right"></i> MEAN: Beginner
+								</li>
+								<li>
+									<i class="green-text mdi-navigation-chevron-right"></i>
+									Flask: Beginner
+								</li> 
+
+								<li>
+									<i class="teal-text mdi-navigation-chevron-right"></i>
+									Django: Proficient
+								</li>
+							</ul>
+						</div>
+	
+
+						<div class="col m6 s10 offset-s1 content">
+							Other Skills:
+							<ul>
+								<li> <i class="green-text mdi-navigation-chevron-right"></i> jQuery and Ajax: Beginner
+								</li>
+
+								<li> <i class="green-text mdi-navigation-chevron-right"></i> Templating (eg. Django Templating) : Beginner
+								</li>
+
+								<li>
+									<i class="teal-text mdi-navigation-chevron-right"></i>
+									CSS Templating: Proficient
+								</li>
+
+								<li>
+									<i class="teal-text mdi-navigation-chevron-right"></i>
+									REST: Proficient
+								</li>
+
+							</ul>
+						</div>
+					</div>	
+
+					<div class="row">
+						<a href="javascript:goToSlide('.skills_slider', 1)" class="waves-effect waves-light btn blue"><i class="mdi-navigation-arrow-back left"></i>Back to Web Technology Skills </a>
+					</div>
+				</div>
+			</div>
+
 			<div id="skills3">
 				<div class="container">
 					<div class="row">
 						<h3 class="col m8 s10 offset-s1"> My Bioinformatics Skills </h3>
 					</div>
+
 					<div class="row">
-						<a href="javascript:prevSlide('.skills_slider')" class="waves-effect waves-light btn blue"><i class="mdi-navigation-arrow-back left"></i>Previous</a>
-						<a href="javascript:nextSlide('.skills_slider')" class="waves-effect waves-light btn blue right"><i class="mdi-navigation-arrow-forward right"></i>Next</a>
+						<div class="col m6 s10 offset-s1 content">
+							<h5> Summary: </h5>
+							<ul>
+								<li> <i class="red-text mdi-navigation-chevron-right"></i>
+									Experience in the following languages: HTML, CSS, and Javascript.
+								</li><br/>							
+
+								<li>
+									<i class="red-text mdi-navigation-chevron-right"></i>
+									Experience in the following frameworks: Django, Flask, and MEAN Stack (Mongol, Express, AngularJS, NodeJs).  
+								</li><br/>
+
+								<li>
+									<i class="red-text mdi-navigation-chevron-right"></i>
+									Experience in: jQuery, AJAX, Templating Frameworks, Bootstrap, MaterialCSS, and finding other web project libraries for projects.
+								</li><br/>
+
+
+								<li>
+									<i class="red-text mdi-navigation-chevron-right"></i>
+									Avid "tinkerer" to ensure websites work on both desktop and mobile platforms (<a href="mailto:contact@djphan.me">let me know</a> if you find a bug on either end for this website).
+								</li><br/>
+							</ul>
+						</div>
+
+						<div class="col m6 s10 offset-s1">
+							<h5>Detailed Breakdown: </h5>
+							<span class="content"> Click the following links to see a more detailed breakdown.</span>
+							<ul class="content2">
+								<li> <i class="blue-text mdi-navigation-chevron-right"></i> Web Technologies Breakdown </li><br/>
+							</ul>
+						</div>
+					</div>	
+
+					<div class="row">
+						<a href="javascript:goToSlide('.skills_slider', 0)" class="waves-effect waves-light btn blue"><i class="mdi-navigation-arrow-back left"></i>Back to Skills</a>
 					</div>
 				</div>
 			</div>
+
 			<div id="skills4">
 				<div class="container">
+
 					<div class="row">
 						<h3 class="col m8 s10 offset-s1"> My Laboratory Skills </h3>
 					</div>
+
 					<div class="row">
 						<a href="javascript:prevSlide('.skills_slider')" class="waves-effect waves-light btn blue"><i class="mdi-navigation-arrow-back left"></i>Previous</a>
-						<a href="javascript:nextSlide('.skills_slider')" class="waves-effect waves-light btn blue right"><i class="mdi-navigation-arrow-forward right"></i>Next</a>
 					</div>
 				</div>
 			</div>
@@ -253,7 +561,7 @@
 			</div>
 		</div>
 
-		<a onclick="Materialize.toast('Photo of me working on a few personal projects.', 4000)"><div id="parallaxf" class="parallax-window"></div></a>
+		<a onclick="Materialize.toast('Working on a few personal projects.', 4000)"><div id="parallaxf" class="parallax-window"></div></a>
 
 	  	<!-- Footer Section -->
 	  	<div class="">
@@ -264,7 +572,7 @@
 	  				</div>
 	  				<div class="row">
 	  				<span class="col m6 s10 offset-s1 white-text">
-	  					<p class="content"> If you wish to work with me shoot me an email at contact [at] djphan.me or by clicking <a href="mailto:contact@djphan.me"> here. <a></p>
+	  					<p class="content"> If you wish to work with me shoot me an email at contact [at] djphan.me or by clicking <a href="mailto:contact@djphan.me"> here. </a></p>
 	  					<p class="content"> As well you can check out my <a href="https://github.com/djphan"> GitHub </a> or <a href="https://ca.linkedin.com/in/djphan"> Linkedin </a> and message me on these platforms. </p>
 	  				</span>
 	  				
@@ -285,6 +593,7 @@
 	  			<div class="footer-copyright blue-grey darken-4">
             		<div class="container">
             			 © 2015 by Daniel Phan
+
            			</div>
 	  		</footer>
 	  	</div>
