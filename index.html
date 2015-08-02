@@ -41,15 +41,15 @@
 					<ul class="right hide-on-med-and-down">
 						<li><a href="#aboutme" class="active">About Me</a></li>
 						<li><a href="#skills">Skills</a></li>
-						<li><a href="#">Projects</a></li>
-						<li><a href="#">Contact Me</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#contact">Contact Me</a></li>
 					</ul>
 
 					<ul class="side-nav" id="navmobile">
 						<li><a href="#aboutme" class="active">About Me</a></li>
 						<li><a href="#skills">Skills</a></li>
-						<li><a href="#">Projects</a></li>
-						<li><a href="#">Contact Me</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#contact">Contact Me</a></li>
 					</ul>
 
 				</div>
@@ -171,7 +171,7 @@
 				<div class="container">
 
 						<div class="row">
-							<h3 class="col m8 s10 offset-s1"> My Skill Summary </h3>
+							<h3 class="col m8 s10 offset-s1"> My Skills Summary </h3>
 						</div>
 
 						<div class="row content2">
@@ -181,27 +181,19 @@
 						</div>
 
 						<div class="row content2">
-							<div class="col m4 s10 offset-s1"><a href="javascript:goToSlide('.skills_slider', 1)"> <i class="blue-text mdi-navigation-chevron-right"></i> Programming Skills </a></div>
+							<div class="col m6 s10 offset-s1">
+								<ul class="links">
+									<li><a href="javascript:goToSlide('.skills_slider', 1)">Programming Skills </a></li><br/>
+									<li><a href="javascript:goToSlide('.skills_slider', 2)">Web Technologies Skills </a></li><br/>
+									<li><a href="javascript:goToSlide('.skills_slider', 3)">Bioinformatics Skills </a></li><br/>
+									<li><a href="javascript:goToSlide('.skills_slider', 4)">Laboratory Skills </a></li><br/>
+									<li><a href="javascript:goToSlide('.skills_slider', 5)">General Skills </a></li>
+								</ul>
+							</div>
+							<div class="col m3 s10 offset-s1">
+										<a onclick="Materialize.toast('Unpacking my briefcase of skills here.', 4000)"><i class="material-icons center-align" style="font-size:180pt">work</i></a><br/>
+							</div>
 						</div>
-
-						<div class="row content2">
-							<div class="col m4 s10 offset-s1"> <a href="javascript:goToSlide('.skills_slider', 2)"> <i class="blue-text mdi-navigation-chevron-right"></i> Web Technologies Skills </a></div>
-						</div>
-
-						<div class="row content2">
-								<div class="col m4 s10 offset-s1"> <a href="javascript:goToSlide('.skills_slider', 3)"> <i class="blue-text mdi-navigation-chevron-right"></i> Bioinformatics Skills </a></div>
-						</div>
-
-						<div class="row content2">
-							<div class="col m4 s10 offset-s1"> <a href="javascript:goToSlide('.skills_slider', 4)"> <i class="blue-text mdi-navigation-chevron-right"></i> Laboratory Skills </a></div>
-						</div>
-
-						<div class="row content2">
-								<div class="col m4 s10 offset-s1"> <a href="javascript:goToSlide('.skills_slider', 5)"> <i class="blue-text mdi-navigation-chevron-right"></i> General Skills </a></div>
-						</div>
-
-						The rest of this is under construction.
-
 				</div>
 			</div>
 
@@ -218,11 +210,9 @@
 								<li>
 									Languages: <span>C</span>, <span>C++</span>, <span>Java</span>, <span>Python</span>, <span>Matlab/Octave</span>, <span>R</span>, and <span>SQL</span>
 								</li>
-
 								<li>
 									Database architectures: <span>MongolDB</span>, <span>SQLite3</span>, <span>MySQL</span>, <span>Postgres</span>, and <span>Oracle</span>
 								</li>
-
 								<li>
 									Programming in <span>MacOS</span>, <span>Unix</span>, and <span>Linux</span> environments
 								</li>
@@ -234,9 +224,11 @@
 								<li>
 									 Programming practices: <span>Agile Programming</span>, <span>Scrum</span>, <span>UML Design</span>, <span>MVC Design Architecture</span>, <span>Version Control</span> with Git and GitHub, and <span>Object Oriented</span> design
 								</li>
-
 								<li>
 									Avid learner of new technologies and frameworks
+								</li>
+								<li>
+									Willing to take on personal projects and attend various local hackathons
 								</li>
 							</ul>
 						</div>
@@ -261,19 +253,15 @@
 								<li>
 									Experience in the following languages: <span>HTML</span>, <span>CSS</span>, and <span>Javascript</span>
 								</li>
-
 								<li>
 									Experience in the following frameworks: <span>Django</span>, <span>Flask</span>, and <span>MEAN Stack</span>
 								</li>
-
 								<li>
 									Experience in: <span>jQuery</span>, <span>AJAX</span>, <span>Templating</span> Frameworks (eg jinja2), <span>Bootstrap</span> (and other CSS templates like MaterialCSS), and <span>RESTful API</span>
 								</li>
-
 								<li>
-									Experience in <span>Inkscape</span> (image generated on the right) and <span>GIMP</span> to develop custom graphics. SVGs encouraged
+									Experience in <span>Inkscape</span> and <span>GIMP</span> to develop custom graphics. SVGs encouraged
 								</li>
-
 								<li>
 									Avid "tinkerer" to ensure websites work on both desktop and mobile platforms
 								</li>
@@ -281,7 +269,7 @@
 						</div>
 
 						<div class="col m6 s10 offset-s1">
-							<a onclick="Materialize.toast('Custom texture and images creation too.', 4000)"><img src="static/img/Texture1.png" class="circle responsive-img" ></a>
+							<a onclick="Materialize.toast('Custom texture made in Inkscape.', 4000)"><img src="static/img/Texture1.png" class="circle responsive-img" ></a>
 							<br/>
 						</div>
 					</div>
@@ -308,24 +296,26 @@
 									Experience in assembly tools: <span>TopHat</span>, <span>Cufflinks</span>, <span>Bowtie</span>, <span>Ray Assembler</span>, <span>Velvet Assembler</span>, <span>CLC Genome Workbench</span>
 								</li>
 								<li>
-									Experience with Ion Torrent Technology. Workflow invovled: <span>sample preparation</span>, <span>library construction</span>, quality analysis (<span>Qubit</span> and <span>Bioanalyzer</span> Systems), and Torrent <span>sequencing runs </span>. Applications simillar to other technologies
+									Experience with Ion Torrent Technology. Workflow invovled: <span>sample preparation</span>, <span>library construction</span>, quality analysis (<span>Qubit</span> and <span>Bioanalyzer</span> Systems), and Torrent <span>sequencing runs</span>. Applications simillar to other technologies
 								</li>
-							</ul>
-						</div>
-
-						<div class="col m6 s10 offset-s1 content">
-							<ul class="altern">
 								<li>
 									Experience in: <span>BioPerl</span> and <span>Biopython</span>
 								</li>
 								<li>
 									Experience using the following tools: <span>BLAST</span>, <span>NCBI</span>, <span>KEGG</span>, <span>Ensembl</span>, <span>Genome Browser</span>, <span>ClustalW/Omega Aligner</span>
 								</li>
-
 								<li>
 									Avid learner of new technologies, wanting to bridge the data analytics to the biology.
 								</li>
 							</ul>
+						</div>
+
+						<div class="col m6 s10 offset-s1">
+							  <div class="card">
+									<div class="card-content">
+										<a onclick="Materialize.toast('An Ion Torrent chip after a sequencing run.', 4000)"><img src="static/img/iontorrent.png" style="height:100%; width:100%"></a>
+							    </div>
+							  </div>
 						</div>
 					</div>
 
@@ -350,10 +340,10 @@
 									Experience in sterile laboratory techniques
 								</li>
 								<li>
-									For Molecular Biology: <span>PCR</span>, <span>qPCR/RT-PCR</span>,  <span>DNA and RNA extraction</span>, working with <span>Kits</span> (e.g. minipreps, or column purification), <span>cDNA library creation</span> from RNA, <span> DNA Sequencing</span>, <span>Gel Electrophoresis</span>, <span>Northern Blot</span>, <span>Western Blots</span>, <span>Protein Gels (SDS-PAGE)</span>
+									For Molecular Biology: <span>PCR</span>, <span>qPCR/RT-PCR</span>, <span>DNA and RNA extraction</span>, working with <span>kits</span> (e.g. minipreps, or column purification), <span>cDNA library creation</span> from RNA, <span> DNA Sequencing</span>, <span>Gel Electrophoresis</span>, <span>Northern Blot</span>, <span>Western Blots</span>, <span>Protein Gels (SDS-PAGE)</span>
 								</li>
 								<li>
-									Experience with the following animal models: maintaining and crossing <span>Drosophila melanogaster</span> lines, performing and document insitu hybridizations on <span>Danio rerio</span> embryos, and <span>Xenopus laevis oocyte extractions</span>. Work on transforming and maintaining <span>HEK cell lines</span>
+									Experience with the following animal models: maintaining and crossing <span>Drosophila melanogaster</span> lines, performing and document <span>insitu hybridizations on Danio rerio</span> embryos, and <span>Xenopus laevis oocyte extractions</span>. Work on transforming and maintaining <span>HEK cell lines</span>
 								</li>
 								<li>
 									Some experience with electrophysiology work: <span>patch</span> and <span>whole cell clamping</span>
@@ -366,27 +356,31 @@
 								<li>
 									For Microbiology: worked with <span>E.coli strains</span> (e.g. plating to making solution and glycerol stocks), and basic <span>identification assays</span>
 								</li>
-
 								<li>
 									Microscope Skills: <span>Light and Fluorescent</span> microscopy skills
 								</li>
 							</ul>
 
-							Here are some great online tools for general labratory work:
-							<ul class="links">
-								<li>
-									<a href="http://www.elabftw.net/">eLabFTW</a> (eLabBook)
-								</li>
-								<li>
-									<a href="https://www.quartzy.com/">Quartzy</a> (Lab Manager)
-								</li>
-								<li>
-									<a href="http://www.everyvector.com/users/login">Everyvector</a> (Record Keeping of Plasmid Constructs)
-								</li>
-								<li>
-									<a href="http://staden.sourceforge.net/">Staden Package</a>, <a href="http://www.molecularevolution.org/software/genomics/tablet">Tablet</a>, or <a href="http://www.geospiza.com/Products/finchtv.shtml">FinchTV</a> (DNA Sequence Viewers)
-								</li>
-							</ul>
+							<div class="card">
+								<div class="card-content">
+									Here are some great online tools that I used in the lab:
+									<ul class="links">
+										<li>
+											<a href="http://www.elabftw.net/">eLabFTW</a> (eLab Book)
+										</li>
+										<li>
+											<a href="https://www.quartzy.com/">Quartzy</a> (Lab Manager)
+										</li>
+										<li>
+											<a href="http://www.everyvector.com/users/login">Everyvector</a> (Plasmid Construct Planner)
+										</li>
+										<li>
+											<a href="http://staden.sourceforge.net/">Staden Package</a>, <a href="http://www.molecularevolution.org/software/genomics/tablet">Tablet</a>, or <a href="http://www.geospiza.com/Products/finchtv.shtml">FinchTV</a> (DNA Sequence Viewers)
+										</li>
+									</ul>
+								</div>
+						</div>
+
 						</div>
 					</div>
 
@@ -401,6 +395,31 @@
 					<div class="row">
 						<h3 class="col m8 s10 offset-s1"> My General Skills </h3>
 					</div>
+					<div class="row content">
+						<div class="col m6 s10 offset-s1">
+							<ul class="altern">
+								<li>
+									Networking skills: <span>drafting sponsorship letters</span> and <span>networking</span> with business and other volunteer groups to achieve event goals
+								</li>
+								<li>
+									Marketing skills: <span>creating marketing material</span> with graphic design tools such as GIMP. Creating easy templates for future work using office tools
+								</li>
+								<li>
+									General Computer Skills: <span>Google Drive</span> and other <span>Google App</span> frameworks, and <span>Microsoft Office</span> and associated programs
+								</li>
+								<li>
+									Constant Learner: Using online tools like <span>Coursera</span> (and others) to maintain and update skills
+								</li>
+							</ul>
+						</div>
+						<div class="col m6 s10 offset-s1">
+							<div class="card">
+								<div class="card-content">
+									<a onclick="Materialize.toast('Leaps of faith encouraged for the stories to tell.', 4000)"><img src="static/img/jump.jpg" style="height:100%; width:100%"></a>
+								</div>
+							</div>
+						</div>
+					</div>
 					<div class="row">
 						<a href="javascript:goToSlide('.skills_slider', 0)" class="waves-effect waves-light btn blue"><i class="mdi-navigation-arrow-back left"></i>Back to Skills</a>
 					</div>
@@ -410,7 +429,7 @@
 
 		<div>
 			<!-- Floating Button Format -->
-			<a id="centerbttn" class="btn-floating btn-large waves-effect waves-light red" href="#skills"><i class="mdi-hardware-keyboard-arrow-down"></i></a>
+			<a id="centerbttn" class="btn-floating btn-large waves-effect waves-light red" href="#projects"><i class="mdi-hardware-keyboard-arrow-down"></i></a>
 			<br/>
 		</div>
 
@@ -419,10 +438,23 @@
 		<!-- Skills Section Ends Here -->
 
 		<!-- Project Section Starts Here -->
+		<div id="projects"></div>
+		<br/><br/><br/>
+
+		<div id="projectsmain">
+			<div class="container">
+				<div class="row">
+					<h3 class="col m8 s10 offset-s1"> My Projects </h3>
+				</div>
+
+				The rest of this is under construction!
+			</div>
+		</div>
 
 		<!-- Project Section Ends Here -->
 
 	  	<!-- Footer Section -->
+			<div id="contact"></div>
 	  	<div class="">
 	  		<footer class="page-footer blue-grey darken-3">
 	  			<div class="container">
