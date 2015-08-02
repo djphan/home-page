@@ -1,0 +1,12 @@
+.parallax-window {
+    height: 350px;
+    background: transparent;
+}
+
+#centerbttn {
+  position:absolute;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+}
