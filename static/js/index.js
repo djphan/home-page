@@ -31,6 +31,7 @@ $( document ).ready(function() {
  	// Link to each window setup
 	$('#parallax1').parallax({ imageSrc: 'static/img/headerimg.jpg', });
 	$('#parallax2').parallax({ imageSrc: 'static/img/gel.jpg', });
+	$('#parallax3').parallax({ imageSrc: 'static/img/gel.jpg', });
 	$('#parallaxf').parallax({ imageSrc: 'static/img/footerimg.png	', });
 
 
@@ -46,6 +47,7 @@ $( document ).ready(function() {
 	// Slick Initalization for Carousel
 	$('.aboutme_slider').slick();
 	$('.skills_slider').slick();
+	$('.workHistorySlider').slick();
 
 	// Carousel Content. Automatically make alternating lists look notice
 	$(".altern li:odd").prepend($('<i class="orange-text mdi-navigation-chevron-right"></i>'));
