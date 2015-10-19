@@ -7,25 +7,19 @@
 		<meta name="author" content="Daniel Phan">
 		<meta name="description" content="Daniel Phan's CV">
 
-		<!-- Custom CSS Styling -->
-		<style>
+    <!--Import materialize.css-->
+   	<link type="text/css" rel="stylesheet" href="static/css/materialize.css"  media="screen,projection"/>
+   	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-		</style>
-      	<!--Import materialize.css-->
-     	<link type="text/css" rel="stylesheet" href="static/css/materialize.css"  media="screen,projection"/>
+   	<!--Import Slick.css for Carousel-->
+   	<link type="text/css" rel="stylesheet" href="static/css/slick.css"/>
+   	<link rel="stylesheet" type="text/css" href="static/css/slick-theme.css"/>
 
-     	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!--Extra Custom Style-->
+		<link rel="stylesheet" type="text/css" href="static/css/style.css"/>
 
-     	<!--Import Slick.css for Carousel-->
-     	<link type="text/css" rel="stylesheet" href="static/css/slick.css"/>
-     	<link rel="stylesheet" type="text/css" href="static/css/slick-theme.css"/>
-
-			<!--Extra Custom Style-->
-			<link rel="stylesheet" type="text/css" href="static/css/style.css"/>
-
-     	<!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-
+   	<!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 	</head>
 
 	<body>
@@ -72,8 +66,11 @@
 			<br/>
 		</div>
 
-		<a onclick="Materialize.toast('My fleet in Twilight Imperium moving forward.', 4000)"><div id="parallax1" class="parallax-window"></div></a>
-
+		<a onclick="Materialize.toast('Hobby: Commanding Twilight Imperium fleets', 4000)">
+			<div class="parallax-container">
+				<div class="parallax"><img src="static/img/headerimg.jpg"></div>
+			</div>
+		</a>
 		<!-- Header Section Ends Here -->
 
 		<!-- About Me Section -->
@@ -86,24 +83,32 @@
 					<div class="row">
 						<h3 class="col m8 s10 offset-s1"> About Me </h3>
 					</div>
+
 					<div class="row">
-						<span class="col m8 s10 offset-s1">
-							<p class="content"> My name is Daniel and I'm a programmer with a background in the field of bioinformatics. I am interested in a wide range of fields such as <span class="red-text"> software development </span>, <span class="red-text">web design </span>, and <span class="red-text"> data analytics </span>. </p>
+						<span class="content col m8 s10 offset-s1">
+							<ul class ="altern">
+								<li>My name is Daniel and I'm a programmer and scientist with a background in bioinformatics</li>
 
-							<p class="content">In research, I'm interested in the topics of <span class="orange-text"> genomics</span>, <span class="orange-text">systems biology</span>, and combining <span class="orange-text">genetics and computer sciences</span> in an interdisciplinary fashion. </p>
+								<li>For programming I am interested in the areas of <span> software development </span>, <span>web design </span>, and <span> data analytics </span></li>
 
-							<p class="content"> This web resume is a <span class="red-text"> portfolio </span> and <span class="red-text"> sandbox </span> for me to play around with some of the current technologies I see online. I'm avid learner and always looking to add to my skill set. </p>
+								<li>For research, I'm interested in the topics of <span> genomics</span>, <span>systems biology</span>, and combining <span>genetics and computer sciences</span> in an interdisciplinary fashion</li>
 
-							<p class="content"> Check out some of my other professional profiles such as my <a href="https://github.com/djphan"> GitHub </a> or <a href="https://ca.linkedin.com/in/djphan"> Linkedin. </a> </p>
+								<li>This web resume is a <span> portfolio </span> and <span> sandbox </span> for me to play around with some of the current technologies I see online. I'm avid learner and always looking to add to my skill set</li>
+
+								<li>Check out some of my other professional profiles such as my <a href="https://github.com/djphan"> GitHub </a> or <a href="https://ca.linkedin.com/in/djphan"> Linkedin. </a>
+							</ul>
 						</span>
-						<div class="col m4 s10 offset-s1 center"><a onclick="Materialize.toast('Fresh and ready to Science? Program? Both!', 4000)"><img src="static/img/aboutme.jpg" style="width:110%; height:110%" class="circle"></a></div>
+						<div class="col m4 s10 offset-s1 center"><a onclick="Materialize.toast('Post-coffee energy for the day. Cheese!', 4000)"><img src="static/img/aboutme.jpg" style="width:110%; height:110%" class="circle"></a></div>
 					</div>
+
 					<br/>
+
 					<div class="row">
 						<a href="javascript:nextSlide('.aboutme_slider')" class="waves-effect waves-light btn blue"><i class="mdi-navigation-arrow-forward right"></i>More about my education</a>
 					</div>
 
 					<br/><br/>
+
 				</div>
 			</div>
 
@@ -114,51 +119,47 @@
 					</div>
 
 					<div class="row">
-						<div class="col m5">
+						<div class="content col m6">
 							<div class="card">
 								<div class="card-content">
-									<div class="card-title"><h4 class="orange-text"> 2013 - 2015 </h4></div>
-									<span class="red-text" style="font-size:15pt"> BSc. Specialization in Computer Science </span> <br/>
+									<div class="card-title"><h5 class="orange-text text-darken-1"> 2013 - 2015 </h4></div>
+									<span class="red-text text-darken-1" style="font-size:15pt"> BSc. Specialization in Computer Science </span> <br/>
+
+									<ul class="altern">
+										<li> Completed at the University of Alberta </li>
+										<li> Educational highlights: <span>project management</span>, <span>object oriented programming</span>, <span>databases</span>, <span class>MVC architecture</span>, and <span>bioinformatics</span> applications</li>
+										<li> Languages learned: <span>Python</span>, <span>C</span>, <span>C++</span>, <span>Java</span>, <span>SQL</span>, <span>HTML/CSS</span>, and <span>Javascript</span></li>
+									</ul>
 								</div>
 							</div>
  						</div>
 
-						<div class="content col m7">
-							<ul class="altern">
-								<li> Completed at the University of Alberta </li>
-								<li> Educational Highlights: learning about <span>project management</span>, <span>object oriented programming</span>, <span>databases</span>, <span class>MVC architecture</span>, and <span>bioinformatics</span> applications</li>
-								<li> Languages Learned: <span>Python</span>, <span>C</span>, <span>C++</span>, <span>Java</span>, <span>SQL</span>, <span>HTML/CSS</span>, and <span>Javascript</span></li>
-							</ul>
+						<div class="content col m6">
+							<div class="card">
+								<div class="card-content">
+									<div class="card-title"><h5 class="orange-text"> 2008 - 2013 </h4></div>
+									<span class="red-text" style="font-size:15pt"> BSc. Honors in Molecular Biology </span>
+
+									<ul class="altern">
+										<li> Completed at the University of Alberta </li>
+										<li> Educational highlights: <span>two research thesis projects</span>, <span>poster presentations</span>, grant review experience, <span>manuscript and article writing</span>, and <span>laboratory</span> experience </li>
+										<li> Scholarships earned: <span class>Jason Lang </span>, <span class>Roland Stansfield Young Memorial Academic Excellence </span>, and <span>Faculty of Science Academic of Excellence</span>
+										</li>
+									</ul>
+								</div>
 						</div>
 					</div>
 
 					<br/>
 
-					<div class="row">
-						<div class="col m5">
-							<div class="card">
-								<div class="card-content">
-									<div class="card-title"><h4 class="orange-text"> 2008 - 2013 </h4></div>
-									<span class="red-text" style="font-size:15pt"> BSc. Honors in Molecular Biology </span>
-								</div>
-							</div>
-						</div>
-
-						<div class="content col m7">
-							<ul class="altern">
-								<li> Completed at the University of Alberta </li>
-								<li> Educational Highlights: completed <span>two research thesis projects</span>, <span>poster presentations</span>, <span>grant review</span> experience, <span>manuscript and article</span> writing, and <span>molecular biology laboratory</span> experience </li>
-								<li> Scholarships Earned: <span class>Jason Lang </span>, <span class>Roland Stansfield Young Memorial Academic Excellence </span>, and <span>Faculty of Science Academic of Excellence</span>
- 								</li>
-							</ul>
-
-						</div>
 					</div>
+
 					<div class="row">
 					<a href="javascript:prevSlide('.aboutme_slider')" class="waves-effect waves-light btn blue"><i class="mdi-navigation-arrow-back left"></i>Back to about me</a>
 					</div>
 
 					<br/><br/>
+
 				</div>
 			</div>
 
@@ -169,7 +170,11 @@
 			<a id="centerbttn" class="btn-floating btn-large waves-effect waves-light red" href="#skills"><i class="mdi-hardware-keyboard-arrow-down"></i></a>
 			<br/>
 		</div>
-		<a onclick="Materialize.toast('An agarose gel running some DNA constructs.', 4000)"><div id="parallax2" class="parallax-window"></div></a>
+		<a onclick="Materialize.toast('An agarose gel running some DNA constructs.', 4000)">
+			<div class="parallax-container">
+				<div class="parallax"><img src="static/img/gel.jpg"></div>
+			</div>
+		</a>
 		<!-- About Me Ends Here -->
 
 
@@ -189,7 +194,7 @@
 						<div class="row content2">
 							<div class="col m6 s10 offset-s1">
 								<span class="center>">Click the following links to see my outline of the following skill categories.</span><br/><br/>
-								<a onclick="Materialize.toast('Visualizing flight patterns and stratagems.', 4000)"><img src="static/img/ships.jpg" style="height:80%; width:80%" class="circle center"></img></a>
+								<a onclick="Materialize.toast('Sending B-Wings and Y-Wings in formation.', 4000)"><img src="static/img/ships.jpg" style="height:80%; width:80%" class="circle center"></img></a>
 
 							</div>
 							<div class="col m6 s10 offset-s1">
@@ -434,8 +439,11 @@
 			<br/>
 		</div>
 
-		<a onclick="Materialize.toast('Working on a few personal projects.', 4000)"><div id="parallaxf" class="parallax-window"></div></a>
-
+		<a onclick="Materialize.toast('Working on a few personal projects.', 4000)">
+			<div class="parallax-container">
+				<div class="parallax"><img src="static/img/projimg.png"></div>
+			</div>
+		</a>
 		<!-- Skills Section Ends Here -->
 
 		<!-- Project Section Starts Here -->
@@ -616,7 +624,7 @@
 	  				<div class="row">
 	  					<span class="col m6 s10 offset-s1 white-text">
 	  						<h5> Extra Info: </h5>
-	  						<p> This website has been built by using the following technologies: <a href="http://materializecss.com/"> Materialize CSS </a>, <a href="http://pixelcog.github.io/parallax.js/"> Parallax </a>, <a href="http://kenwheeler.github.io/slick/"> Slick</a>, and <a href="https://jquery.com/"> jQuery </a>. Version control with Git and <a href="https://github.com/"> Github </a>. Hosted with Github Pages using <a href="https://www.namecheap.com/"> NameCheap </a>. You can check out my <a href="https://github.com/djphan/djphan.github.io"> repo for this website here </a>	 to look into the source code. </p>
+	  						<p> This website has been built by using the following technologies: <a href="http://materializecss.com/"> Materialize CSS </a>, <a href="http://kenwheeler.github.io/slick/"> Slick</a>, and <a href="https://jquery.com/"> jQuery </a>. Version control with Git and <a href="https://github.com/"> Github </a>. Hosted with Github Pages using <a href="https://www.namecheap.com/"> NameCheap </a>. You can check out my <a href="https://github.com/djphan/djphan.github.io"> repo for this website here </a>	 to look into the source code. </p>
 
 	  						<p> If you're passing by with a question don't hesitate to shoot me a message about this site. </p>
 	  					</span>
@@ -634,7 +642,6 @@
 		<!--Import jQuery before materialize.js and parallax -->
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 		<script type="text/javascript" src="static/js/materialize.js"></script>
-		<script type="text/javascript" src="static/js/parallax.js"></script>
 		<script type="text/javascript" src="static/js/slick.js"></script>
 		<script type="text/javascript" src="static/js/index.js"></script>
 

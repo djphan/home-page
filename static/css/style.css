@@ -1,12 +1,20 @@
-.parallax-window {
-    height: 350px;
-    background: transparent;
+.parallax-container {
+    height: 450px;
+}
+
+. parallaximg {
+    height: auto;
+    width: auto;
 }
 
 #centerbttn {
-  position:absolute;
+    position:absolute;
     left:0;
     right:0;
     margin-left:auto;
     margin-right:auto;
+}
+
+.altern li {
+  padding: 1px;
 }
