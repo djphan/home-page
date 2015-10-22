@@ -1,12 +1,33 @@
-.parallax-window {
-    height: 350px;
-    background: transparent;
+html, body {
+
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.parallax img {
+  width: auto;
+  max-width: 1200px;
+  height: auto;
+}
+
+.parallax-content .parallax img {
+  display: block;
+  transform: translate3d(-50%, 350px, 0px);
 }
 
 #centerbttn {
   position:absolute;
-    left:0;
-    right:0;
-    margin-left:auto;
-    margin-right:auto;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+.altern li {
+  padding-top: 1px;
+  padding-bottom: 1px;
 }
