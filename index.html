@@ -26,138 +26,31 @@
 		<div id="start"></div>
 
 		<!-- Nav Bar Begins Here -->
-		<div class="navbar-fixed">
-		  <nav>
-		    <div id="navbar" class="nav-wrapper blue-grey darken-2">
-		      <a href="#start" class="brand-logo" style="margin-left:1%">djphan.me</a>
-		      <a href="#" data-activates="navmobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-
-		      <ul class="right hide-on-med-and-down">
-		        <li><a href="#aboutme" class="active">About Me</a></li>
-		        <li><a href="#skills">Skills</a></li>
-		        <li><a href="#projects">Projects</a></li>
-		        <li><a href="#history">Work History</a></li>
-		        <li><a href="#contact">Contact Me</a></li>
-		      </ul>
-
-		      <ul class="side-nav" id="navmobile">
-		        <li><a href="#aboutme" class="active">About Me</a></li>
-		        <li><a href="#skills">Skills</a></li>
-		        <li><a href="#projects">Projects</a></li>
-		        <li><a href="#history">Work History</a></li>
-		        <li><a href="#contact">Contact Me</a></li>
-		      </ul>
-		    </div>
-		  </nav>
-		</div>
+		<div id="siteNavBar" class="navbar-fixed"></div>
 		<!-- Nav Bar Ends Here -->
 
 		<!-- Header Section -->
-		<div class="container center">
-		  <h2 class="row center"> Daniel Phan </h2>
-		  <p> Software Developer and Bioinformatician </p>
-		  <p> Click on the images for more tid bits of myself! </p>
-		</div>
+		<div id="headerSection"></div>
 
-		<!-- Floating Button Format -->
+		<!-- Floating Button Format -->'
 		<div>
 		  <a id="centerbttn" class="btn-floating btn-large waves-effect waves-light red" href="#aboutme"><i class="mdi-hardware-keyboard-arrow-down"></i></a>
 		  <br/>
 		</div>
 
-		<a onclick="Materialize.toast('Hobby: Commanding Twilight Imperium fleets', 4000)">
-			<div class="parallax-container">
-				<div class="parallax"><img src="static/img/headerimg.jpg" width="100"></div>
-			</div>
+		<a onclick="Materialize.toast('Galatic clash of Twilight Imperium fleets', 4000)">
+		  <div class="parallax-container">
+		    <div class="parallax"><img src="static/img/headerimg.jpg" width="100"></div>
+		  </div>
 		</a>
-
-	<!-- Header Section Ends Here -->
+	 <!-- Header Section Ends Here -->
 
 	<!-- About Me Section -->
-	<div id="aboutme"></div>
-	<br/><br/><br/>
+	<div id="aboutme"></div> <br/><br/><br/>
+
 	<div class="aboutme_slider">
-		  <div id="aboutme1">
-				<div class="container">
-				 <h3 class="row">About Me</h3>
-
-					<div class="row">
-						<span class="content col m7 s10 offset-s1">
-							<ul class ="altern">
-								<li>My name is Daniel and I'm a programmer, and scientist with a background in bioinformatics</li><br/>
-								<li>My programming interests include <span>software development</span>, <span>web design</span>, and <span>data analytics</span></li><br/>
-								<li>My research interests include <span>genomics</span>, <span>systems biology</span>, and combining <span>genetics and computer sciences</span> in an interdisciplinary fashion</li><br/>
-								<li>This web resume is a <span>portfolio</span> and <span>sandbox</span> for me to play around with some of the current technologies I see online. I'm avid learner and always looking to add to my skill set</li><br/>
-								<li>Check out some of my other professional profiles such as my <a href="https://github.com/djphan"> GitHub </a> or <a href="https://ca.linkedin.com/in/djphan"> Linkedin. </a>
-							</ul>
-						</span>
-
-						<div class="col m5 s10 offset-s1 center">
-							<a onclick="Materialize.toast('Post-coffee energy for the day.', 4000)"><img src="static/img/aboutme.jpg" style="width:100%; height:100%" class="circle"></a>
-						</div>
-					</div>
-
-					<br/>
-
-					<div class="row">
-						<a href="javascript:nextSlide('.aboutme_slider')" class="waves-effect waves-light btn blue">
-							<i class="mdi-navigation-arrow-forward right"></i>More about my education
-						</a>
-					</div>
-
-					<br/><br/>
-
-				</div>
-			</div>
-
-			<div id="aboutme2">
-				<div class="container">
-					<h3 class="row"> About My Education </h3>
-
-					<div class="row">
-		        <div class="col m6 s10 offset-s1">
-		          <div class="card">
-		            <div class="card-content">
-		              <div class="card-title"><h5 class="orange-text"> 2013 - 2015 (University of Alberta) </h5></div>
-		              <span class="red-text" style="font-size:15pt"> BSc. Specialization in Computer Science </span> <br/>
-									<ul class="altern content">
-				            <li> Educational highlights: learning about <span>project management</span>, <span>object oriented programming</span>, <span>databases</span>, <span class>MVC architecture</span>, and <span>bioinformatics</span> applications</li>
-				            <li> Languages learned: <span>Python</span>, <span>C</span>, <span>C++</span>, <span>Java</span>, <span>SQL</span>, <span>HTML/CSS</span>, and <span>Javascript</span></li>
-				          </ul>
-		            </div>
-		          </div>
-		        </div>
-
-		      	<div class="content col m6 s10 offset-s1">
-		          <div class="card">
-		            <div class="card-content">
-		              <div class="card-title"><h5 class="orange-text"> 2008 - 2013 (University of Alberta) </h5></div>
-		              <span class="red-text" style="font-size:15pt"> BSc. Honors in Molecular Biology </span>
-				          <ul class="altern">
-				            <li>
-											Educational highlights: completed <span>two research thesis projects</span>, <span>poster presentations</span>, <span>grant review</span> experience, <span>manuscript and article</span> writing, and <span>molecular biology laboratory</span> experience
-										</li>
-				            <li>
-											Scholarships earned: <span class>Jason Lang</span>, <span class>Roland Stansfield Young Memorial Academic Excellence</span>, and <span>Faculty of Science Academic of Excellence</span>
-				            </li>
-				          </ul>
-		            </div>
-		          </div>
-		        </div>
-      		</div>
-
-					<br/>
-
-					<div class="row">
-						<a href="javascript:prevSlide('.aboutme_slider')" class="waves-effect waves-light btn blue">
-							<i class="mdi-navigation-arrow-back left"></i>Back to about me
-						</a>
-					</div>
-
-					<br/><br/>
-
-				</div>
-			</div>
+		<div id="aboutme1"></div>
+		<div id="aboutme2"></div>
 	</div>
 
 	<!-- Floating Button Format -->
@@ -653,14 +546,16 @@
 	</div>
 	<!-- Footer Ends Here -->
 
-
-
-
 	<!--Import jQuery before materialize.js -->
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script type="text/javascript" src="static/js/materialize.js"></script>
 	<script type="text/javascript" src="static/js/slick.js"></script>
 	<script type="text/javascript" src="static/js/index.js"></script>
+	<script type="text/javascript" src="static/js/carousel.js"></script>
+	<script type="text/javascript" src="static/js/navbar.js"></script>
+	<script type="text/javascript" src="static/js/header.js"></script>
+	<script type="text/javascript" src="static/js/aboutme.js"></script>
+	<script type="text/javascript" src="static/js/skills.js"></script>
 
 	<body>
 </html>
