@@ -5,19 +5,17 @@ This website was developed using the following technologies.
 1. [Materialize CSS](http://materializecss.com/)  
   ``` This is usable under the MIT license and a copy can be found in the link above ```
 
-2. [Slick Carousel](http://kenwheeler.github.io/slick/)
-   ``` This is usable under the MIT license and a copy can be found in the link above ```
+2. [Mobile-Detect](https://github.com/hgoebl/mobile-detect.js)
+  ``` This is usable under the MIT license and a copy can be found in the link above ```
 
-Copyright (c) 2015 by Daniel Phan
+Copyright (c) 2017 by Daniel Phan
 
 LICENSE
 =======
 
 The MIT License (MIT)
-
-Materialize CSS Copyright (c) 2015 .
-Parallax Copyright (c) 2015 PixelCog Inc.
-Slick Copyright (c) 2015 by Ken Wheeler
+Materialize CSS Copyright (c) 2017.
+Mobile-Detect Copyright (c) 2017.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
