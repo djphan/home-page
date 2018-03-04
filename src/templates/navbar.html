@@ -1,0 +1,20 @@
+<div class="inner-nav container">
+    <div class="navbar__link--left">
+        <a href=""></a>
+        <div class="icon"><i class="material-icons md-light">list</i></div>
+    </div>
+    <div class="navbar__link--right">
+        <a href="">About Me</a>
+        <a href="">Past Work</a>
+        <a href="">Personal Projects</a>
+        <a href="">Education</a>
+        <a href="">Contact Me</a>
+    </div>
+</div>
+
+<script>
+    $('.navbar__link--left > .icon ').on('click', function() {
+        console.log('help');
+        $('div.navbar__link--right').toggleClass('active');
+    });
+</script>

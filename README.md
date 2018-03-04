@@ -2,13 +2,13 @@
 
 This website was developed using the following technologies.
 
-1. [Materialize CSS](http://materializecss.com/)  
+1. [Mobile-Detect](https://github.com/hgoebl/mobile-detect.js)
   ``` This is usable under the MIT license and a copy can be found in the link above ```
 
-2. [Mobile-Detect](https://github.com/hgoebl/mobile-detect.js)
-  ``` This is usable under the MIT license and a copy can be found in the link above ```
+2. [Google - Material Design Icons ](http://google.github.io/material-design-icons/)
+  ``` This is usable under the Apache 2.0 license and a copy can be found in the link above ```
 
-Copyright (c) 2017 by Daniel Phan
+Copyright (c) 2018 by Daniel Phan
 
 LICENSE
 =======
