@@ -1,4 +1,14 @@
 :root {
     --nav-base-color: #1F363D; 
-    --nav-base-color-hover: #4d8799;
+    --nav-base-color-hover: #70A9A1;
+
+    --circle: #40798C;
+    --circle-light-1: #9EC1A3;
+    --circle-light-2: #CFE0C3;
+
+    --a2: #40798C;
+    --a4: #9EC1A3;
+    --a5: #CFE0C3;
+
+    --footer-secondry-base-color: #40798C;
 }

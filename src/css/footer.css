@@ -1,0 +1,23 @@
+.footer {
+    color:white;
+    background-color: var(--nav-base-color, darkslategray);
+
+    text-align: center;
+}
+
+.footer .container:nth-child(2) {
+    background-color: var(--footer-secondry-base-color, slategray);
+    justify-content: center;
+}
+
+.footer .container__content:nth-child(2) {
+    align-self: center;
+}
+
+.github img {
+    padding: 5px 0 0 5px
+}
+
+.container__content--footer-bottom {
+    padding: 1rem 0;
+}

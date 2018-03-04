@@ -1,9 +1,6 @@
 const template_path = 'src/templates';
 $(function() {
     $('div.navbar').load( template_path + '/navbar.html');
-
-    $('.navbar__link--left > i').on('click', function() {
-        console.log('help');
-        $('.nav-link-right').toggleClass('active');
-    });
+    $('div.section__content--social-and-other').load( template_path + '/placeholder.html');
+    $('div.footer').load( template_path + '/footer.html');
 });

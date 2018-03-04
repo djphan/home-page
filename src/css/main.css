@@ -1,5 +1,6 @@
 @import url('variables.css'); 
 @import url('navbar.css');
+@import url('footer.css');
 
 * {
     box-sizing: border-box;
@@ -15,8 +16,41 @@ html, body {
     display: block;
 }
 
+.container__content {
+    text-align: left;
+    padding: 1rem;
+}
+
+.container__content--bullet-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.container__content--bullet-item-text {
+    padding: 0 1rem;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: var(--circle, slategray);
+    box-shadow: 0 0 0 3px var(--circle, slategray);
+}
+
+.circle:hover,
+.circle:active {
+    background-color: var(--circle-light-1, lightgrey);
+}
+
+.circle i {
+    padding: 8px 0 0 8px;
+}
+
 @media only screen and (min-width: 725px) {
     .container {
         display: flex;
+        justify-content: space-around;
     }
 }
