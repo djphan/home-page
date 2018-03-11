@@ -12,6 +12,11 @@ html, body {
     font-family: 'Open Sans', sans-serif;
 }
 
+a {
+    color: white;
+    text-decoration-line: none;
+}
+
 .container {
     display: block;
 }

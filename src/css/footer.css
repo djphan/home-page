@@ -15,7 +15,37 @@
 }
 
 .github img {
-    padding: 5px 0 0 5px
+    padding: 5px 0 0 5px;
+}
+
+.linkedin img {
+    padding: 9px 0 0 8px;
+}
+
+.angellist img,
+.twitter img {
+    height: 35px;
+    padding: 7px 0 0 9px;
+}
+
+.twitter img {
+    height: 35px;
+    padding: 6px 0 0 6px;
+}
+
+.instagram img {
+    height: 35px;
+    padding: 6px 0 0 6px;
+}
+
+.container__content--QR {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.container__content--QR img {
+    height: 200px;
 }
 
 .container__content--footer-bottom {
