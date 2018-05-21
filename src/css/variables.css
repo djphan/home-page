@@ -1,14 +1,15 @@
 :root {
-    --nav-base-color: #1F363D; 
-    --nav-base-color-hover: #70A9A1;
+    --nav-base-color: #00171F; 
+    --nav-base-color-hover: #00A8E8;
 
-    --circle: #40798C;
-    --circle-light-1: #9EC1A3;
-    --circle-light-2: #CFE0C3;
+    --circle: #003459;
+    --circle-light-1: #007EA7;
+    --circle-light-2: #00A8E8;
 
-    --a2: #40798C;
-    --a4: #9EC1A3;
-    --a5: #CFE0C3;
+    --card-header-box-color: #00A8E8;
 
-    --footer-secondry-base-color: #40798C;
+    --footer-base-color: #00171F;
+    --footer-secondry-base-color: #003459;
+    --footer-content-card-color: #00A8E8;
+
 }
