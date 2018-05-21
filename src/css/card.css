@@ -1,0 +1,45 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 black;
+    transition: 0.3s;
+}
+
+.card .card__header > h1,
+.card .card__content > div,
+.card .card__content > a > div {
+    margin: 15px;
+}
+
+/* 
+ * Card Header
+ */
+.card .card__header {
+    background-color: var(--card-header-box-color, darkslategrey)   
+}
+
+.card__content {
+    background-color: white;
+    color: black;
+}
+
+.card__content i {
+    color: white;
+}
+
+.card .card__content > a {
+    color: black;
+}
+
+/*
+ * Card Content Bullet
+ */
+.card__content--bullet {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.card__content--bullet-text {
+    padding: 0 1rem;
+}

@@ -1,4 +1,5 @@
 @import url('variables.css'); 
+@import url('card.css');
 @import url('navbar.css');
 @import url('footer.css');
 
@@ -13,8 +14,12 @@ html, body {
 }
 
 a {
-    color: white;
+    color:white;
     text-decoration-line: none;
+}
+
+.desktop-only {
+    display: none;
 }
 
 .container {
@@ -24,16 +29,6 @@ a {
 .container__content {
     text-align: left;
     padding: 1rem;
-}
-
-.container__content--bullet-item {
-    display: flex;
-    align-items: center;
-    padding: 1rem;
-}
-
-.container__content--bullet-item-text {
-    padding: 0 1rem;
 }
 
 .circle {
@@ -54,8 +49,12 @@ a {
 }
 
 @media only screen and (min-width: 725px) {
+    .desktop-only {
+        display: initial;
+    }
+    
     .container {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
 }
