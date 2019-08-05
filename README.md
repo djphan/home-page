@@ -1,14 +1,33 @@
-# This is Daniel Phan's Github Page
+# djphan.club
 
-This website was developed using the following technologies.
+## Project setup
+```
+npm install
+```
 
-1. [Mobile-Detect](https://github.com/hgoebl/mobile-detect.js)
-  ``` This is usable under the MIT license and a copy can be found in the link above ```
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-2. [Google - Material Design Icons ](http://google.github.io/material-design-icons/)
-  ``` This is usable under the Apache 2.0 license and a copy can be found in the link above ```
+### Compiles and minifies for production
+```
+npm run build
+```
 
-Copyright (c) 2018 by Daniel Phan
+### Run your tests
+```
+npm run test
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+
 
 LICENSE
 =======
